@@ -14,7 +14,7 @@ kill -9 3452
 
 #### Finding zombie process
 
-'''
+```
 $ ps aux | grep 'Z'
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
 tuttu       4586  0.0  0.0      0     0 ?        Z    12:56   0:00 [zypak-sandbox] <defunct>
@@ -34,4 +34,4 @@ tuttu       4576    4575  0 12:56 ?        00:00:07 /app/joplin-desktop/joplin
 $ ps -fp 4960
 UID          PID    PPID  C STIME TTY          TIME CMD
 tuttu       4960    4959  3 12:57 ?        00:07:49 /app/extra/chrome --disable-features=WebAssemblyTrap
-'''
+```
